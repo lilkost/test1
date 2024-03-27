@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="media.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="visbility-hidden">Заголовок страницы</h1>
+        <header class="header bg-blue container">
+            <label for="triger-modal" class="header__btn" role="button">
+                Open pop-up button
+            </label>
+            <input class="triger-modal" type="checkbox" id="triger-modal">
+            <div class="modal" role="alert" aria-label="модальное окно">
+                <label class="modal__close" for="triger-modal" role="button" aria-label="Закрыть модальное окно">
+                    x
+                </label>
+                <h2 class="modal__title">
+                    Pop-up
+                </h2>
+            </div>
+        </header>
+        <main class="main">
+            <section class="top container">
+                <ul class="top__list">
+                    <li class="top__item"></li>
+                    <li class="top__item"></li>
+                    <li class="top__item"></li>
+                    <li class="top__item"></li>
+                    <li class="top__item"></li>
+                </ul>
+            </section>
+            <section class="cards container">
+                <ul class="cards__list">
+                    <li class="cards__item"></li>
+                    <li class="cards__item"></li>
+                    <li class="cards__item"></li>
+                    <li class="cards__item"></li>
+                </ul>
+            </section>
+        </main>
+        <footer class="footer bg-blue container"></footer>
+    </div>
+</body>
+</html>
